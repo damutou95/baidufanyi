@@ -11,6 +11,6 @@ import scrapy
 class BaidufanyiItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    origin = scrapy.Field()
+    original = scrapy.Field()
     translation = scrapy.Field()
     pass
